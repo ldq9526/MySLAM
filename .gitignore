@@ -1,0 +1,15 @@
+.vs/
+run.sh
+CMakeLists.txt.user
+examples/mono_tum
+KeyFrameTrajectory.txt
+3rdparty/DBoW2/build/
+3rdparty/DBoW2/lib/
+3rdparty/g2o/build/
+3rdparty/g2o/config.h
+3rdparty/g2o/lib/
+vocabulary/
+build/
+*~
+lib/
+
