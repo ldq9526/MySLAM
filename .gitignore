@@ -2,6 +2,7 @@
 run.sh
 CMakeLists.txt.user
 examples/mono_tum
+tools/bin_vocabulary
 KeyFrameTrajectory.txt
 3rdparty/DBoW2/build/
 3rdparty/DBoW2/lib/
