@@ -78,6 +78,11 @@ ${PROJECT_SOURCE_DIR}/3rdparty/DBoW2/lib/libDBoW2.so
 ${PROJECT_SOURCE_DIR}/3rdparty/g2o/lib/libg2o.so
 )
 
+# Build tools converting text vocabulay to binary
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/tools)
+add_executable(bin_vocabulary tools/bin_vocabulary.cpp)
+target_link_libraries(bin_vocabulary ${PROJECT_NAME})
+
 # Build examples
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/examples)
 add_executable(mono_tum examples/mono_tum.cpp)
